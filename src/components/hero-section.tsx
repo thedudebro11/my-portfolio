@@ -17,8 +17,11 @@ export default function HeroSection() {
             className={`transform transition-all duration-1000 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"}`}
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-400">
-              Creative Developer & Designer
+              Creative Developer & Designer 
+              <div className="h-2 invisible">.</div>
+
             </h1>
+            
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-10">
               I build exceptional digital experiences that make an impact
             </p>
